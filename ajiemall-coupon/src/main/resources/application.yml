@@ -4,6 +4,12 @@ spring:
     url: jdbc:mysql://192.168.175.132:3306/ajiemall_sms
     username: root
     password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: ajiemall-coupon
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
