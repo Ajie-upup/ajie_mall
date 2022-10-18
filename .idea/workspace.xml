@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0460fff-da19-4979-8455-e0bd4b15e420" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/entity/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ajiemall-product/src/main/java/com/ajie/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +148,7 @@
       <workItem from="1666068086755" duration="295000" />
       <workItem from="1666068468764" duration="2454000" />
       <workItem from="1666080356258" duration="18000" />
-      <workItem from="1666080600600" duration="1455000" />
+      <workItem from="1666080600600" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="抽取renren-fast">
       <created>1666064490742</created>
@@ -179,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666068604376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="导入renren-fast 解决找不到方法的问题，Lombok版本不匹配，提升Lombok版本即可">
+      <created>1666082118978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666082118978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

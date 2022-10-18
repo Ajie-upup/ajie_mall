@@ -61,6 +61,4 @@ public class CategoryEntity implements Serializable {
     @TableField(select = false)
     private List<CategoryEntity> children;
 
-	@TableField(select = false)
-	private List<CategoryEntity> children;
 }
