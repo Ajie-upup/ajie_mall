@@ -1,11 +1,12 @@
 package com.ajie.product.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
-import lombok.Data;
+import java.util.List;
 
 /**
  * 商品三级分类
@@ -57,4 +58,6 @@ public class CategoryEntity implements Serializable {
 	 */
 	private Integer productCount;
 
+	@TableField(select = false)
+	private List<CategoryEntity> children;
 }
