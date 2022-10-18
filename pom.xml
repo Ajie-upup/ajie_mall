@@ -17,7 +17,6 @@
         <module>ajiemall-order</module>
         <module>ajiemall-product</module>
         <module>ajiemall-ware</module>
-        <module>renren-fast</module>
         <module>renren-generator</module>
         <module>ajiemall-common</module>
     </modules>
