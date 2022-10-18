@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ajiemall-product
+  cloud:
+    nacos:
+      server-addr: 192.168.175.132:8848
+      config:
+        namespace: a7f59d85-6bf0-4f1d-927e-847c7c01f1f6
