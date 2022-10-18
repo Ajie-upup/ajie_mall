@@ -19,6 +19,7 @@
         <module>ajiemall-ware</module>
         <module>renren-generator</module>
         <module>ajiemall-common</module>
+        <module>renren-fast</module>
     </modules>
 
     <!--  这里的属性会被子模块继承  -->
