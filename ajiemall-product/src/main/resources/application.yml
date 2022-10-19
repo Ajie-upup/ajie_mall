@@ -1,3 +1,5 @@
+server:
+  port: 10000
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -8,12 +10,15 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.175.132:8848
-
-
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
-server:
-  port: 10000
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+# 调整日志打印级别
+logging:
+  level:
+    com.ajie.ajiemall: debug
+

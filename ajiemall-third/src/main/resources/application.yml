@@ -1,0 +1,16 @@
+server:
+  port: 30000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.175.132:8848
+  application:
+    name: ajiemall-third
+alibaba:
+  cloud:
+    access-key: LTAI5t9J7vpk3naJfGvRfG26
+    secret-key: cRR7XfgfVQt0AZojoHTbq5PZdAMuZE
+    oss:
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      bucket: ajiemall

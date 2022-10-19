@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ajiemall-third
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.175.132:8848
+        namespace: d24afe61-d2a3-403e-aa43-4bbfe06297df
+        extension-configs:
+          - data-id: oss.yml
+            group: DEFAULT_GROUP
+            refresh: true

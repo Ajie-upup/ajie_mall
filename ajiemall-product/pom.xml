@@ -23,6 +23,12 @@
             <artifactId>ajiemall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun.oss</groupId>-->
+<!--            <artifactId>aliyun-sdk-oss</artifactId>-->
+<!--            <version>3.15.0</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>

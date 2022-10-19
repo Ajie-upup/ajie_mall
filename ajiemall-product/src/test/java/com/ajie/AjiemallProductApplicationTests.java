@@ -12,6 +12,7 @@ class AjiemallProductApplicationTests {
     @Autowired
     private BrandService brandService;
 
+
     @Test
     void contextLoads() {
         BrandEntity brandEntity = new BrandEntity();
@@ -20,5 +21,7 @@ class AjiemallProductApplicationTests {
         brandService.save(brandEntity);
         System.out.println("保存成功");
     }
+
+
 
 }
